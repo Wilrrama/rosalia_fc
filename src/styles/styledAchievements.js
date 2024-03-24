@@ -35,43 +35,44 @@ export const StyledAchievements = styled.main`
   table {
     width: 80%;
     border-collapse: collapse;
-    border: 2px solid whitesmoke; 
+    border: 2px solid whitesmoke;
 
-  th,
-  td {
-    padding: 10px;
-    border: 1px solid whitesmoke; 
-  }
+    th,
+    td {
+      padding: 10px;
+      border: 1px solid whitesmoke;
+    }
 
-  thead {
-    background-color: #333;
-    color: white;
-  }
+    thead {
+      background-color: #333;
+      color: white;
+    }
 
-  tbody {
-    text-align: center;
-  }
+    tbody {
+      text-align: center;
+    }
 
-  ul {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    align-items: center;
-  }
+    ul {
+      display: flex;
+      flex-direction: column;
+      list-style-type: none;
+      align-items: center;
+    }
 
-  li {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
+    li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
 
-  .logo__campeonato {
-    width: 100px;
-    height: 100px;
-  }
+    .logo__campeonato {
+      width: 100px;
+      height: 100px;
+    }
 
-  .logo__trofeu {
-    width: 120px;
-    height: 200px;
+    .logo__trofeu {
+      width: 120px;
+      height: 200px;
+    }
   }
 `;

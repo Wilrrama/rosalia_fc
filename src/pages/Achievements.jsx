@@ -5,6 +5,7 @@ import {
 
 import trofeu from "../assets/images/trofeu.png";
 import copa_nego_dao from "../assets/images/copa_nego_dao.png";
+import trofeu_2023 from "../assets/images/trofeu_2023.jpeg";
 import logo2 from "../assets/images/logo copa euro.png";
 
 export const Achievements = () => {
@@ -26,7 +27,10 @@ export const Achievements = () => {
             </thead>
             <tbody>
               <tr>
-                <td>2024</td>
+                <td>
+                  {" "}
+                  <p>2024</p>{" "}
+                </td>
                 <td>
                   <figure>
                     <img
@@ -48,7 +52,9 @@ export const Achievements = () => {
                 </td>
               </tr>
               <tr>
-                <td>2023</td>
+                <td>
+                  <p>2023</p>
+                </td>
                 <td>
                   <figure>
                     <img
@@ -63,7 +69,7 @@ export const Achievements = () => {
                 </td>
                 <td>
                   <img
-                    src={trofeu}
+                    src={trofeu_2023}
                     alt="Foto Troféu"
                     className="logo__trofeu"
                   />

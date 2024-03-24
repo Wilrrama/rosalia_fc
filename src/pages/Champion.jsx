@@ -39,13 +39,15 @@ export const Champion = () => {
         </figure>
 
         <div className="team_info_history">
-          {/* <h1>História</h1>
+          {/* <h1>História</h1>*/}
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            eos facere itaque non ut numquam voluptatem! Vel distinctio, tempora
-            tenetur omnis provident esse illum, neque temporibus blanditiis
-            animi dignissimos nisi.
-          </p> */}
+            No dia 10 de março de 2024, ocorreu a emocionante final da Copa
+            Euro, protagonizada pelas equipes Rosália F. C. e Viela E. C. Em um
+            duelo de tirar o fôlego, o Rosália sagrou-se campeão nos pênaltis,
+            adicionando mais uma estrela reluzente ao seu escudo glorioso. A
+            Copa Euro 2024 foi marcada por uma competição intensa, envolvendo
+            equipes de renome e promovendo partidas memoráveis.
+          </p>
           {/* <p>Sede da equipe: </p> */}
         </div>
       </StyledMain>
