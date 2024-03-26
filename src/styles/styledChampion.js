@@ -106,6 +106,7 @@ export const StyledMain = styled.main`
 
     p {
       color: whitesmoke;
+      text-align: justify;
     }
   }
 `;

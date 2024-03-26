@@ -28,16 +28,18 @@ export const Achievements = () => {
             <tbody>
               <tr>
                 <td>
-                  {" "}
-                  <p>2024</p>{" "}
+                  <p>2024</p>
                 </td>
                 <td>
                   <figure>
-                    <img
-                      src={logo2}
-                      alt="Logo Copa Euro"
-                      className="logo__campeonato"
-                    />
+                    <a href="https://copafacil.com/-jlte" target="_blank">
+                      <img
+                        src={logo2}
+                        alt="Logo Copa Euro"
+                        className="logo__campeonato"
+                        title="Página oficial da Copa Euro"
+                      />
+                    </a>
                     <figcaption>
                       <p>Copa Euro</p>
                     </figcaption>
@@ -57,11 +59,17 @@ export const Achievements = () => {
                 </td>
                 <td>
                   <figure>
-                    <img
-                      src={copa_nego_dao}
-                      alt="Logo Copa Nego Dão"
-                      className="logo__campeonato"
-                    />
+                    <a
+                      href="https://copafacil.com/-njggaylv0_wkdqlgnxj"
+                      target="_blank"
+                      title="Página oficial da Copa Nego Dão"
+                    >
+                      <img
+                        src={copa_nego_dao}
+                        alt="Logo Copa Nego Dão"
+                        className="logo__campeonato"
+                      />
+                    </a>
                     <figcaption>
                       <p>Copa Nego Dão</p>
                     </figcaption>

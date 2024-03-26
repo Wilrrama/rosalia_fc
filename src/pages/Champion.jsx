@@ -17,6 +17,7 @@ export const Champion = () => {
               href="https://copafacil.com/-jlte"
               target="_blank"
               className="championship_logos"
+              title="Página oficial da Copa Euro"
             >
               <img src={logo} alt="logo campeonato" className="logo" />
               <img src={logo2} alt="logo campeonato" className="logo2" />

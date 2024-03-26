@@ -9,13 +9,18 @@ export const Footer = () => {
   return (
     <StyledFooter>
       <div>
-        <a href="https://www.facebook.com/CesinhaBrasilOficial" target="_blank">
+        <a
+          href="https://www.facebook.com/CesinhaBrasilOficial"
+          target="_blank"
+          title="Página oficial do Cesinha no Facebook"
+        >
           <img src={logo_cesinha} alt="" />
         </a>
 
         <a
           href="https://www.facebook.com/Kinisi.sports.oficial"
           target="_blank"
+          title="Página oficial da Kinisi Sports no Facebook"
         >
           <img src={ksports} alt="" />
         </a>
@@ -27,6 +32,7 @@ export const Footer = () => {
         <a
           href="https://www.youtube.com/watch?v=b6VeAqhFt-U&t=7496s"
           target="_blank"
+          title="Jogo da Final no Facebook"
         >
           <img src={cowboy} alt="" className="logo__cowboy" />
         </a>
@@ -36,6 +42,7 @@ export const Footer = () => {
         <a
           href="https://www.facebook.com/profile.php?id=61555954481148"
           target="_blank"
+          title="Pagina da Liga Hortolandense no Facebook"
         >
           <img src={liga} alt="" />
         </a>
